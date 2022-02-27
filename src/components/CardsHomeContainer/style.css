@@ -1,0 +1,11 @@
+.cards-home-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .cards-home-container {
+    flex-wrap: wrap;
+  }
+}

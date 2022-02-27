@@ -1,0 +1,14 @@
+nav a {
+  color: #161618;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-content {
+  padding: 10px;
+}
+
+

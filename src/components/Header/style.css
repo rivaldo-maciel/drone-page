@@ -5,9 +5,9 @@ nav a {
 header {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(255, 255, 255);
   position: fixed;
   z-index: 1;
-  background-color: rgb(255, 255, 255);
   width: 100%;
 }
 

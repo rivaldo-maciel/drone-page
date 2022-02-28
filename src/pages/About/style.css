@@ -1,0 +1,36 @@
+.about-content {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 70px;
+  color: '#161618';
+  width: 100%;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-texts {
+  width: 400px;
+  align-self: center;
+  height: 300px;
+}
+
+.company-image-content, img {
+  width: 500px;
+}
+
+.company-image-content {
+  position: relative;
+  top: 20px;
+  left: 20px
+}
+
+hr {
+  position: absolute;
+  top: 300px;
+  width: 400px;
+}

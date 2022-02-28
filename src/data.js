@@ -1,6 +1,7 @@
 import firstImage from './assets/agriculture.jpg';
 import secondImage from './assets/topography.jpg';
 import thirdImage from './assets/flyImage.jpg';
+import profile from './assets/profile.png';
 
 const data = {
   cardsHome : [
@@ -22,7 +23,27 @@ const data = {
       title: 'Imagens Aéreas',
       text: 'Nossos drones são equipados com câmeras de alta tecnologia, garantindo assim a captura de imagens com resolução HD em qualquer lugar!'
     }
-  ]
+  ],
+  Team: [
+    {
+      id: 4,
+      src: profile,
+      title: 'Lorem ipsum',
+      text: 'CEO',
+    },
+    {
+      id: 5,
+      src: profile,
+      title: 'Lorem ipsum',
+      text: 'CTO',
+    },
+    {
+      id: 6,
+      src: profile,
+      title: 'Lorem ipsum',
+      text: 'MANAGER',
+    },
+  ],
 };
 
 export default data;

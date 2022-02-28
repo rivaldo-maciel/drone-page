@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 960px) {
+  .about-content {
+    flex-direction: column;
+  }
+} 
+
 .about-main {
   display: flex;
   flex-direction: column;
@@ -21,16 +27,31 @@
 
 .company-image-content, img {
   width: 500px;
+  align-self: center;
 }
 
-.company-image-content {
-  position: relative;
-  top: 20px;
-  left: 20px
+@media screen and (max-width: 540px) {
+  .company-image-content, img {
+    width: 400px;
+  }
+  .about-texts {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .about-content {
+    justify-content: center;
+  }
 }
 
 hr {
   position: absolute;
   top: 300px;
   width: 400px;
+}
+
+@media screen and (max-width: 950px) {
+  hr {
+    visibility: hidden;
+  }
 }

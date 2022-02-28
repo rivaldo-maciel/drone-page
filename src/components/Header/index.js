@@ -12,7 +12,7 @@ function Header() {
       <NavBar>
         <Link to="/">Home</Link>
         <Link to="/about">Sobre Nós</Link>
-        <Link>Produtos</Link>
+        <Link to="/products">Produtos</Link>
         <Link>Contato</Link>
       </NavBar>
     </header>

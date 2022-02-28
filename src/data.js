@@ -2,6 +2,10 @@ import firstImage from './assets/agriculture.jpg';
 import secondImage from './assets/topography.jpg';
 import thirdImage from './assets/flyImage.jpg';
 import profile from './assets/profile.png';
+import firstDrone from './assets/Drone-1.png';
+import secondDrone from './assets/Drone-2.png';
+import thirdDrone from './assets/Drone-3.png';
+
 
 const data = {
   cardsHome : [
@@ -44,6 +48,43 @@ const data = {
       text: 'MANAGER',
     },
   ],
+  Products: [
+    {
+      id: 7,
+      src: firstDrone,
+      title: 'Drone DJI Mavic 2 Zoom Fly More Combo',
+      price: 'R$ 15.000,00'
+    },
+    {
+      id: 8,
+      src: secondDrone,
+      title: 'Drone DJI Mavic 2 Zoom Fly More Combo',
+      price: 'R$ 25.000,00'
+    },
+    {
+      id: 9,
+      src: thirdDrone,
+      title: 'Drone DJI Mavic 2 Zoom Fly More Combo',
+      price: 'R$ 35.000,00'
+    },{
+      id: 10,
+      src: firstDrone,
+      title: 'Drone DJI Mavic 2 Zoom Fly More Combo',
+      price: 'R$ 15.000,00'
+    },
+    {
+      id: 11,
+      src: secondDrone,
+      title: 'Drone DJI Mavic 2 Zoom Fly More Combo',
+      price: 'R$ 25.000,00'
+    },
+    {
+      id: 12,
+      src: thirdDrone,
+      title: 'Drone DJI Mavic 2 Zoom Fly More Combo',
+      price: 'R$ 35.000,00'
+    }
+  ]
 };
 
 export default data;

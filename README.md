@@ -4,6 +4,9 @@
 
 Este projeto simula a página de vendas de uma empresa fornecedora de drones.
 
+-- Projeto responsivo mobile/desktop
+
+
 ### Clone do projeto
 
 - Clone o repositório utilizando o seguinte link:

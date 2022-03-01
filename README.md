@@ -7,7 +7,7 @@ Este projeto simula a página de vendas de uma empresa fornecedora de drones.
 ### Clone do projeto
 
 - Clone o repositório utilizando o seguinte link:
-(git@github.com:rivaldo-maciel/drone-page.git)
+**git@github.com:rivaldo-maciel/drone-page.git**
 
 - Entre na pasta do repositório clonado
 

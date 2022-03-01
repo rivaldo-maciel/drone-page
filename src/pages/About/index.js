@@ -9,7 +9,6 @@ function About() {
     <>
       <Header />
       <main className="about-main">
-        <div>
           <section className="about-content">
             <div className="company-image-content">
               <img src={company} alt="empresa" />
@@ -26,9 +25,8 @@ function About() {
                 popularised in the 1960s with the release.
               </p>
             </div>
-            <hr />
           </section>
-        </div>
+            <hr />
         <TeamSection />
       </main>
     </>

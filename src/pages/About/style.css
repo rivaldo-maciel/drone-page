@@ -1,8 +1,6 @@
 .about-content {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  top: 70px;
   color: '#161618';
   width: 100%;
 }
@@ -14,9 +12,11 @@
 } 
 
 .about-main {
+  align-self: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 70px;
+  width: 100%;
 }
 
 .about-texts {
@@ -32,22 +32,18 @@
 
 @media screen and (max-width: 540px) {
   .company-image-content, img {
-    width: 400px;
+    width: 300px;
   }
   .about-texts {
     width: 300px;
     margin-top: 20px;
   }
 
-  .about-content {
-    justify-content: center;
-  }
 }
 
 hr {
-  position: absolute;
-  top: 300px;
-  width: 400px;
+  width: 30%;
+  align-self: center;
 }
 
 @media screen and (max-width: 950px) {

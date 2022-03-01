@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   const { showMenu } = useContext(mobileContext);
   return (
-    <BrowserRouter>
+    <>
       <Switch>
         <Route exact path="/" component={ Home } />
         <Route path="/about" component={ About } />
@@ -23,7 +23,7 @@ function App() {
             showMenu && <MobileMenu />
           }
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 

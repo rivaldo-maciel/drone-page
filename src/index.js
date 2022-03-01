@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MobileProvider from './context/MobileProvider.js';
+import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MobileProvider>
+    <HashRouter>
+      <MobileProvider>
       <App />
     </MobileProvider>
+    </HashRouter>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

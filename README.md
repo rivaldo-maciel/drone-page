@@ -4,12 +4,6 @@
 
 Este projeto simula a página de vendas de uma empresa fornecedora de drones.
 
-## Como visualizar
-
-### Link 
-
-[github pages](https://rivaldo-maciel.github.io/drone-page).
-
 ### Clone do projeto
 
 - Clone o repositório utilizando o seguinte link:

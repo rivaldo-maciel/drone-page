@@ -7,6 +7,7 @@ import Products from './pages/Products';
 import Contact from './pages/Contact';
 import MobileMenu from './components/MobileMenu';
 import mobileContext from './context/mobileContext.js';
+import Footer from './components/Footer';
 
 function App() {
   const { showMenu } = useContext(mobileContext);
@@ -18,9 +19,10 @@ function App() {
         <Route path="/products" component={ Products } />
         <Route path="/contact" component={ Contact } />
         </Switch>
-    {
-      showMenu && <MobileMenu />
-    }
+          {
+            showMenu && <MobileMenu />
+          }
+      <Footer />
     </BrowserRouter>
   );
 }
